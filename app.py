@@ -15,3 +15,9 @@ if number % 2 == 0:
     print(f"{number} is an even number.")
 else:
     print(f"{number} is an odd number.")
+def greet(name):
+    """This function prints a greeting message."""
+    print(f"Hello, {name}!")
+
+greet("Alice")
+greet("Bob")
